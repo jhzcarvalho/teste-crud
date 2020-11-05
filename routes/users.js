@@ -5,7 +5,7 @@ const router = express.Router();
 
 let users =  [];
 
-//Todos os usuarios
+//Todos os usuarios do servidor
 router.get('/', (req, res) => {  
     console.log(users);
 
